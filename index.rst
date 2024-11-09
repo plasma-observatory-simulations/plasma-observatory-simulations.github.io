@@ -24,7 +24,7 @@ The Working Group
 The working group members and contributors represent a diverse sampling of numerical models of geospace plasmas, ranging from global to local and fluid to fully-kinetic models. This provides the full range of scales needed to assess the cross-scale phenomena in the Earth's magnetosphere and targeted by Plasma Observatory.
 
 Members & Contributors
-----------------
+----------------------
 
 Maybe we list soon our members here?
 
