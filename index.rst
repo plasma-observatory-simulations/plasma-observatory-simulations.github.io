@@ -1,10 +1,14 @@
+============================================
+   PO Numerical Simulations Working Group
+============================================
+--------------------------------------------
+   Users' Guide to working with modellers
+--------------------------------------------
 .. PO Numerical Simulations guide documentation master file, created by
    sphinx-quickstart on Sat Nov  9 17:19:00 2024.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-PO Numerical Simulations Working Group
-============================================
 
 Add your content using ``reStructuredText`` syntax. See the
 `reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
