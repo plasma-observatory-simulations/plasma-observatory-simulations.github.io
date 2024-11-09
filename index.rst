@@ -34,13 +34,13 @@ Models
 Maybe we list soon our associated models here, with few words and a link to a specific page?
 
 Vlasiator
-+++++++++
+^^^^^^^^^
 
 HYPSI
-+++++
+^^^^^
 
 ETCETERA
-++++++++
+^^^^^^^^
 
 Capabilities
 ------------
@@ -48,17 +48,17 @@ Capabilities
 Here we could start listing examples on what we can do and have done, and which models to look at for which sorts of phenomena. 
 
 Fast turnaround data
-++++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^^
 
 Here we could describe which sorts of data we can provide quickly
 
 Medium turnaround projects
-++++++++++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Here we could describe things we might be doing in near-future, but that require planning and/or new simulation runs or resources.
 
 Slow turnaround projects
-++++++++++++++++++++++++
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 Here we could list things that require significant new effort, e.g. new simulation runs with significant HPC resources that need to be acquired.
 
