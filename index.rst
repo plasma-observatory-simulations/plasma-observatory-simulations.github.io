@@ -22,6 +22,9 @@ This page should contain mostly overviews on topics, and the branch off to subpa
    :maxdepth: 2
    :caption: Contents:
 
+   index
+
+
 The Working Group
 -----------------
 
