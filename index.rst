@@ -32,4 +32,4 @@ The group goes by the name *Group of sImulAtioN and NumerIcal support (GIANNI)* 
    :caption: Models
 
    models
-   model_details
+   
