@@ -53,7 +53,8 @@ The *muphyII* code is a simulation framework for collisionless plasma physics an
 
 .. toctree::
    :maxdepth: 1
-
+   :caption: Model details
+   
    models/vlasiator
    models/muphyii
    models/template
