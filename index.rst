@@ -1,13 +1,9 @@
-============================================
-   PO Numerical Simulations Working Group
-============================================
+=================================================
+   GIANNI: PO Numerical Simulations Working Group
+=================================================
 --------------------------------------------
    Users' Guide to working with modellers
 --------------------------------------------
-.. PO Numerical Simulations guide documentation master file, created by
-   sphinx-quickstart on Sat Nov  9 17:19:00 2024.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
 
 
 Add your content using ``reStructuredText`` syntax. See the
@@ -18,13 +14,22 @@ This website will serve as a collection of material, tools, and references for t
 
 This page should contain mostly overviews on topics, and the branch off to subpages.
 
+The Working Group
+-----------------
+
+The working group members and contributors represent a diverse sampling of numerical models of geospace plasmas, ranging from global to local and fluid to fully-kinetic models. This provides the full range of scales needed to assess the cross-scale phenomena in the Earth's magnetosphere and targeted by Plasma Observatory.
+
+The group goes by the name *Group of sImulAtioN and NumerIcal support (GIANNI)* in honor of the late Giovanni Lapenta.
+
 .. toctree::
-   :maxdepth: 2
-   :hidden:
-   :caption: Contents:
+   :includehidden:
+   :caption: The Working Group
 
-   self
    wg
-   models
 
-.. include:: wg.rst
+.. toctree::
+   :includehidden:
+   :caption: Models
+
+   models
+   data

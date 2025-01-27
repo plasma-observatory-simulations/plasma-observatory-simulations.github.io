@@ -1,4 +1,4 @@
-Name of our fancy model
+Template model
 ================================
 
 Give here ~one paragraph introduction to the model. The table below has links and data at a glance, which is nice (even if I kind of dislike the table format in rst now that I see it).

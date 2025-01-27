@@ -1,5 +1,5 @@
 Vlasiator
-================================
+=========
 
 Vlasiator [1]_ [2]_ is a 6D ion-kinetic hybrid-Vlasov model for the Earth's global magnetosphere. Vlasiator simulates the dynamics of plasma using a hybrid-Vlasov model, where protons are described by their distribution function f(r,v,t) in ordinary (r) and velocity (v) space, and electrons are a charge-neutralising fluid. This approach neglects electron kinetic effects but retains ion kinetics. The time-evolution of f(r,v,t) is given by Vlasov's equation, which is coupled self-consistently to Maxwell's equations giving the evolution of the electric and magnetic fields E and B. Maxwell's equations neglect the displacement current. The equations are closed by a generalised Ohm's law including the Hall term.
 
@@ -46,7 +46,7 @@ Vlasiator propagates the distribution function forward in time with a conservati
 
 Vlasiator has a parallel Cartesian mesh in ordinary space. In each spatial cell there is a 3-dimensional sparse velocity grid, modelling the in the full 6-dimensional distribution function. Empty velocity space cells are neither stored nor propagated, which in a typical case reduces the total number of phase space cells by a factor of at least 100 while impacting mass conservation to a relative level of no more than 10−6.
 
-The ordinary space grid is implemented using the open source `DCCRG <https://github.com/fmihpc/dccrg>`_ grid library developed by the group. It is parallelized using MPI-based domain decomposition and OpenMP-based threading is used to further parallelise the work done by each process. The Vlasov solver is vectorised using AVX intrinsics. The load is balanced with the `Zoltan <http://www.cs.sandia.gov/zoltan/>`_ library using its recursive coordinate bisection partitioner. I/O is performed using our own parallel `VLSV <https://github.com/fmihpc/vlsv>`_ file format, which can be analyzed using VisIt or by using the Python-based `Analysator <https://github.com/fmihpc/analysator>` package.
+The ordinary space grid is implemented using the open source `DCCRG <https://github.com/fmihpc/dccrg>`_ grid library developed by the group. It is parallelized using MPI-based domain decomposition and OpenMP-based threading is used to further parallelise the work done by each process. The Vlasov solver is vectorised using AVX intrinsics. The load is balanced with the `Zoltan <http://www.cs.sandia.gov/zoltan/>`_ library using its recursive coordinate bisection partitioner. I/O is performed using our own parallel `VLSV <https://github.com/fmihpc/vlsv>`_ file format, which can be analyzed using VisIt or by using the Python-based `Analysator <https://github.com/fmihpc/analysator>`_ package.
 
 
 References
