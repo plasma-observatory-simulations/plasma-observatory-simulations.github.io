@@ -1,5 +1,5 @@
 
-Concise listing
+Models overview
 ---------------
 
 Vlasiator
@@ -51,10 +51,13 @@ VPIC
 
 The *muphyII* code is a simulation framework for collisionless plasma physics and targeted at space plasmas in particular. The *muphyII* code utilizes a hierarchy of models with different inherent scales to address the separation of scales problem typically encountered in these plasmas. It allows stand-alone use of models as well as a model-based dynamic and adaptive domain decomposition and resorts to novel techniques for energy conservation, careful treatment of inner-domain model boundaries for interface coupling, and robust time stepping algorithms.
 
+Model details
+-------------
+
 .. toctree::
    :maxdepth: 1
-   :caption: Model details
-   
+   :caption: 
+
    models/vlasiator
    models/muphyii
    models/template
