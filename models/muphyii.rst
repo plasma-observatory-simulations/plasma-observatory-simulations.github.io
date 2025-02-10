@@ -27,14 +27,12 @@ Use cases
 Data availability
 -----------------
 
-There are currently no datasets publicly available.
+There is no public data repository. Simulations intended to support Plasma Observatory will be made available to interested parties.
 
 Simulations-on-demand
 ---------------------
 
-Simulations are not generally offered on an on-demand basis. Simulations for the PO WG can of course be planned.
-
-Support for external users in offered on best-effort basis.
+Simulations are not generally offered on-demand. This excludes simulations requested for the support of Plasma Observatory.
 
 Numerical Methods
 -----------------
@@ -49,7 +47,7 @@ References
 -----------
 
 .. [1] Lautenbach, S., & Grauer, R. (2018). Multiphysics simulations of collisionless plasmas. Front. Phys., 6, 113.
-.. [2] Allmann-Rahn, F., Lautenbach, S., & Grauer, R. (2024). The muphyII framework for multiphysics plasma simulations. J. Open Source Softw.
+.. [2] Allmann-Rahn, F., Lautenbach, S., & Grauer, R. (2024). The *muphyII* code: Multiphysics plasma simulation on large HPC systems. Comp. Phys. Comm., 296, 109064.
 .. [3] Lautenbach, S., & Grauer, R. (2021). Hierarchical fluid models for space plasma turbulence. Front. Phys., 9, 1537.
 .. [4] Kurganov, A., & Levy, D. (2000). Third-order semidiscrete central scheme for conservation laws and convection-diffusion equations. SIAM J. Sci. Comput., 22(4), 1461-1488.
 .. [5] Shu, C.-W., & Osher, S. (1988). Efficient implementation of essentially non-oscillatory shock-capturing schemes. J. Comput. Phys., 77(2), 439-471.
