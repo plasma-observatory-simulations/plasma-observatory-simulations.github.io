@@ -1,9 +1,9 @@
 PSC
 ================================
 
-Plasma Simulation Code [PSC][1]_ is a 3-dimensional fully electromagnetic particle-in-cell code for kinetic plasma simulations. It supports Nvidia GPUs and patch-based dynamic load balancing.
+Plasma Simulation Code [1]_ is a 3-dimensional fully electromagnetic particle-in-cell code for kinetic plasma simulations. It supports Nvidia GPUs and patch-based dynamic load balancing.
 
-The table below has links and data at a glance, which is nice.
+The table below has links to documentation.
 
 +------------------------+---------------------------------------------------------------------+
 | Additional information | `GitHub <https://github.com/psc-code/psc>`_                         |
