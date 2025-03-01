@@ -25,11 +25,11 @@ The table below has links to documentation.
 Use cases
 ---------
 
-PSC has been used to perform kinetic simulations of magnetic field generation and collisionless shock formation in expanding laboratory plasmas [2]_, to study the formation of magnetic holes in the Earth's magentisheath [3]_, to study 3D magnetic reconnection events that occur as a result of the turbulent dynamics in the context of the solar wind [4]_ and to study intermittency in simulations of turbulence using a multi-spacecraft analysis [5]_.
+PSC has been used to perform kinetic simulations of magnetic field generation and collisionless shock formation in expanding laboratory plasmas [2]_, to study the formation of magnetic holes in the Earth's magentisheath [3]_, to study 3D magnetic reconnection events that occur as a result of the turbulent dynamics in the context of the solar wind [4]_, to study the effect of kinetis-scale fluctuations on a harris current sheet [5]_ and to study intermittency in simulations of turbulence using a multi-spacecraft analysis [6]_.
 
 .. image:: Images/Agudelo_Rueda_2021_fig4.png
   :width: 450
-  :alt: Image with extra white space on the right.
+  :alt: Figure from a simulation.
 
 Data availability
 -----------------
@@ -56,5 +56,6 @@ References
 .. [1] Germaschewski, Kai, et al. "The Plasma Simulation Code: A modern particle-in-cell code with patch-based load-balancing." Journal of Computational Physics 318 (2016): 305-326. `<https://doi.org/10.1016/j.jcp.2016.05.013>`_
 .. [2] Fox, W., et al. "Kinetic simulation of magnetic field generation and collisionless shock formation in expanding laboratory plasmas." Physics of Plasmas 25.10 (2018). `<https://doi.org/10.1063/1.5050813>`_
 .. [3] Ahmadi, Narges, Kai Germaschewski, and Joachim Raeder. "Simulation of magnetic holes formation in the magnetosheath." Physics of Plasmas 24.12 (2017). `<https://doi.org/10.1063/1.5003017>`_
-.. [4] Rueda, Jeffersson A. Agudelo, et al. "Three-dimensional magnetic reconnection in particle-in-cell simulations of anisotropic plasma turbulence." Journal of Plasma Physics 87.3 (2021): 905870228. `<https://doi.org/10.1017/S0022377821000404>`_
-.. [5] Guerrero Guio, Andres F., Jeffersson A. Agudelo Rueda, and Santiago Vargas Domínguez. "Exploring intermittency in numerical simulations of turbulence using single and multi-spacecraft analysis." Frontiers in Astronomy and Space Sciences 11 (2024): 1323993. `<https://doi.org/10.3389/fspas.2024.1323993>`_
+.. [4] Agudelo Rueda, Jeffersson A., et al. "Three-dimensional magnetic reconnection in particle-in-cell simulations of anisotropic plasma turbulence." Journal of Plasma Physics 87.3 (2021): 905870228. `<https://doi.org/10.1017/S0022377821000404>`_
+.. [5] Agudelo Rueda, Jeffersson A., et al. "On the Effect of Driving Turbulent-like Fluctuations on a Harris Current Sheet Configuration and the Formation of Plasmoids." The Astrophysical Journal 971.1 (2024): 109.
+.. [6] Guerrero Guio, Andres F., Jeffersson A. Agudelo Rueda, and Santiago Vargas Domínguez. "Exploring intermittency in numerical simulations of turbulence using single and multi-spacecraft analysis." Frontiers in Astronomy and Space Sciences 11 (2024): 1323993. `<https://doi.org/10.3389/fspas.2024.1323993>`_
