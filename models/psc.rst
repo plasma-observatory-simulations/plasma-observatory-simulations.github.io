@@ -12,7 +12,7 @@ The table below has links to documentation.
 +------------------------+---------------------------------------------------------------------+
 | WG Point of Contact    | Jeffersson Agudelo Rueda                                            |
 +------------------------+---------------------------------------------------------------------+
-| Current code version   |                                                                     |
+| Current code version   |    This is the development version of PSC                           |
 +------------------------+---------------------------------------------------------------------+
 | code/repository        |     `GitHub <https://github.com/psc-code/psc>`_                     |
 +------------------------+---------------------------------------------------------------------+
@@ -32,7 +32,8 @@ Example plots or other figures (not too many).
 Data availability
 -----------------
 
-Available data to be listed (public/on-request/available via collaboration). Describe shortly - we might compile these to a separate page.
+Available data to be listed (public/on-request/available via collaboration). 
+
 
 Simulations-on-demand
 ---------------------
