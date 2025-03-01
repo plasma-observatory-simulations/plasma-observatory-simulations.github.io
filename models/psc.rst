@@ -12,7 +12,7 @@ The table below has links to documentation.
 +------------------------+---------------------------------------------------------------------+
 | WG Point of Contact    | Jeffersson Agudelo Rueda                                            |
 +------------------------+---------------------------------------------------------------------+
-| Current code version   |    This is the development version of PSC                           |
+| Current code version   |    Under development                                                |
 +------------------------+---------------------------------------------------------------------+
 | code/repository        |     `GitHub <https://github.com/psc-code/psc>`_                     |
 +------------------------+---------------------------------------------------------------------+
@@ -27,23 +27,27 @@ Use cases
 
 PSC has been used to perform kinetic simulations of magnetic field generation and collisionless shock formation in expanding laboratory plasmas [2]_, to study the formation of magnetic holes in the Earth's magentisheath [3]_, to study 3D magnetic reconnection events that occur as a result of the turbulent dynamics in the context of the solar wind [4]_ and to study intermittency in simulations of turbulence using a multi-spacecraft analysis [5]_.
 
-Example plots or other figures (not too many).
+.. image:: Images/Agudelo_Rueda_2021_fig4.png
+  :width: 450
+  :alt: Image with extra white space on the right.
 
 Data availability
 -----------------
 
-Available data to be listed (public/on-request/available via collaboration). 
+Data publycally available `zenodo <https://zenodo.org/records/4313310>`_
+
+Adittional data available via collaboration. 
 
 
 Simulations-on-demand
 ---------------------
 
-Can simulations be done on an on-demand basis? Outline procedures.
+Simulations can be done on an on-demand basis.
 
 Numerical Methods
 -----------------
 
-TBD
+The Plasma Simulation Code is an explicit code that solves the equations of motion for the quasi-particles and self-consistently evolves the electromagnetic fields using Maxwell's equations. It employs a finite-difference time domain (FDTD) shceme and it uses the staggered Yee grid to represent magnetic fields on faces, electric fields and current densities on edges, and charge densities on corners of the computational mesh. It uses standard leapfrog method to advance quasi-particles.
 
 
 References
