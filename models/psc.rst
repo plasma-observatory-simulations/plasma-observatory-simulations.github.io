@@ -1,7 +1,7 @@
 PSC
 ================================
 
-Plasma Simulation Code [1]_ is a 3-dimensional fully electromagnetic particle-in-cell code for kinetic plasma simulations. It supports Nvidia GPUs and patch-based dynamic load balancing.
+Plasma Simulation Code [PSC][1]_ is a 3-dimensional fully electromagnetic particle-in-cell code for kinetic plasma simulations. It supports Nvidia GPUs and patch-based dynamic load balancing.
 
 The table below has links to documentation.
 
@@ -31,13 +31,13 @@ PSC has been used to perform kinetic simulations of magnetic field generation an
   :width: 450
   :alt: Figure from a simulation.
 
+
 Data availability
 -----------------
 
 Data publycally available `zenodo <https://zenodo.org/records/4313310>`_
 
 Adittional data available via collaboration. 
-
 
 Simulations-on-demand
 ---------------------
@@ -59,3 +59,4 @@ References
 .. [4] Agudelo Rueda, Jeffersson A., et al. "Three-dimensional magnetic reconnection in particle-in-cell simulations of anisotropic plasma turbulence." Journal of Plasma Physics 87.3 (2021): 905870228. `<https://doi.org/10.1017/S0022377821000404>`_
 .. [5] Agudelo Rueda, Jeffersson A., et al. "On the Effect of Driving Turbulent-like Fluctuations on a Harris Current Sheet Configuration and the Formation of Plasmoids." The Astrophysical Journal 971.1 (2024): 109.
 .. [6] Guerrero Guio, Andres F., Jeffersson A. Agudelo Rueda, and Santiago Vargas Domínguez. "Exploring intermittency in numerical simulations of turbulence using single and multi-spacecraft analysis." Frontiers in Astronomy and Space Sciences 11 (2024): 1323993. `<https://doi.org/10.3389/fspas.2024.1323993>`_
+
