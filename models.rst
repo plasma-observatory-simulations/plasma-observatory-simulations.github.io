@@ -67,6 +67,13 @@ The *muphyII* code is a simulation framework for collisionless plasma physics an
 .. toctree::
    muphyII details<models/muphyii>
 
+PSC
+^^^
+
+Plasma Simulation Code (PSC) is a 3-dimensional fully electromagnetic particle-in-cell code for kinetic plasma simulations. It supports Nvidia GPUs and patch-based dynamic load balancing.
+
+.. toctree::
+   PSC details<models/psc>
 
 Template model
 ^^^^^^^^^^^^^^
