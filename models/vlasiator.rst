@@ -28,14 +28,64 @@ Vlasiator has been used to describe magnetic reconnection in global magnetospher
 Data availability
 -----------------
 
-Available data to be listed (public/on-request/available via collaboration).
-
 Data access subject to `Rules of the Road <https://www.helsinki.fi/en/researchgroups/vlasiator/rules-of-the-road>`_. Some data is available publicly.
+
++------+------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------+------------------------------------------------+
+| Name | Access                                                                                               | Used                                                                                 | Comments                                       |
++------+------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------+------------------------------------------------+
+| ABA  | `Full bulk data available <https://etsin.fairdata.fi/dataset/bf93afde-009e-4a46-a9e3-d3dde0875452>`_ | `Palmroth+2018 <https://angeo.copernicus.org/articles/36/1171/2018/>`_,              | Equatorial run with 30deg cone angle, 5 nT IMF |
+|      |                                                                                                      | `Palmroth+2021 <https://angeo.copernicus.org/articles/39/289/2021/>`_,               |                                                |
+|      |                                                                                                      | `Suni+2021 <https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2021GL095655>`_,|                                                |
+|      |                                                                                                      | `Suni+2023 <https://angeo.copernicus.org/articles/41/551/2023/>`_                    |                                                |
++------+------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------+------------------------------------------------+
+| ABC  | `Full bulk data available <https://etsin.fairdata.fi/dataset/bf93afde-009e-4a46-a9e3-d3dde0875452>`_ | `Palmroth+2015 <https://agupubs.onlinelibrary.wiley.com/doi/10.1002/2015JA021526>`_, |                                                |
+|      |                                                                                                      | `Palmroth+2018 <https://angeo.copernicus.org/articles/36/1171/2018/>`_,              |                                                |
+|      |                                                                                                      | `Turc+2018 <https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2018JA025466>_,      |                                                |
+|      |                                                                                                      | `Turc+2019 <https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2019GL084437>`_,     |                                                |
+|      |                                                                                                      | `Battarbee+2020 <https://doi.org/10.5194/angeo-38-625-2020>`_,                       |                                                |
+|      |                                                                                                      | `Suni+2021 <https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2021GL095655>`_,|                                                |
+|      |                                                                                                      | `Run RAD_B5 in Turc+2022 <https://doi.org/10.3389/fspas.2022.989369>`_,              |                                                |
+|      |                                                                                                      | `Dorfman+2023 <https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2023JA031724>`_   |                                                |
+|      |                                                                                                      | `Suni+2023 <https://angeo.copernicus.org/articles/41/551/2023/>`_                    |Equatorial run with 5deg cone angle, 5 nT IMF   |
++------+------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------+------------------------------------------------+
+| AEA  | `Full bulk data available <https://etsin.fairdata.fi/dataset/bf93afde-009e-4a46-a9e3-d3dde0875452>`_ | `Palmroth+2021 <https://angeo.copernicus.org/articles/39/289/2021/>`_,               |                                                |
+|      |                                                                                                      | `Suni+2021 <https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2021GL095655>`_,|                                                |
+|      |                                                                                                      | `Suni+2023 <https://angeo.copernicus.org/articles/41/551/2023/>`_                    | Equatorial run with 30deg cone angle, 10 nT IMF|
++------+------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------+------------------------------------------------+
+| AEC  | `Full bulk data available <https://etsin.fairdata.fi/dataset/bf93afde-009e-4a46-a9e3-d3dde0875452>`_ | `Turc+2018 <https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2018JA025466>`_,     |                                                |
+|      |                                                                                                      | `Turc+2019 <https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2019GL084437>`_,     |                                                |
+|      |                                                                                                      | `Battarbee+2020 <https://doi.org/10.5194/angeo-38-625-2020>`_,                       |                                                |
+|      |                                                                                                      | `Palmroth+2021 <https://angeo.copernicus.org/articles/39/289/2021/>`_,               |                                                |
+|      |                                                                                                      | `Suni+2021 <https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2021GL095655>`_,|                                                |
+|      |                                                                                                      | `Run RAD_B10 in Turc+2022 <https://doi.org/10.3389/fspas.2022.989369>`_              |Equatorial run with 5deg cone angle, 10 nT IMF  |
++------+------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------+------------------------------------------------+
+| AFC  | Full bulk data                                                                                       | `Takahashi+2021 <https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020JA028474>`_,|                                                |
+|      | `available <https://a3s.fi/swift/v1/AUTH_81f1cd490d494224880ea77e4f98490d/vlasiator-2d-afc>`_        | `Run MC_B14 in Turc+2022 <https://doi.org/10.3389/fspas.2022.989369>`_,              |Equatorial run with 30deg cone angle            |
+|      |                                                                                                      | `Turc+2023 <https://www.nature.com/articles/s41567-022-01837-z>`_                    | IMF and strong driving conditions              |
++------+------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------+------------------------------------------------+
+| BCB  | Request                                                                                              | `Pfau-Kempf+2016 <https://angeo.copernicus.org/articles/34/943/2016/>`_              | The original southward Vlasiator Conditions run|
++------+------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------+------------------------------------------------+
+| BCQ  | Request                                                                                              | Existing collaboration                                                               | Southward with 45° IMF and foreshock, used     |
+|      |                                                                                                      |                                                                                      | in many marketing plots too.                   |
++------+------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------+------------------------------------------------+
+| DCA  | Request                                                                                              | `Pfau-Kempf+2020 <https://doi.org/10.1063/5.0020685>`_                               | 2.9D southward                                 |
++------+------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------+------------------------------------------------+
+| EGI  | `Partially open bulk data <http://urn.fi/urn:nbn:fi:att:471b6af3-7a46-4640-91fc-05e27962d328>`_      | `Palmroth+2023 <https://doi.org/10.1038/s41561-023-01206-2>`_,                       | 3D Magnetosphere w/o ionosphere, Southward IMF.|
+|      |                                                                                                      | `Alho+2024 <https://doi.org/10.5194/angeo-42-145-2024>`_,                            | Investigations into tail RX processes.         |
+|      |                                                                                                      | `Cozzani+2025 <https://doi.org/10.1029/2024GL111848>`_,                              |                                                |
+|      |                                                                                                      | `Zaitsev+2025 <https://doi.org/10.1029/2024JA032615>`_                               | 1506s second run, initialization until ~1000s. |
++------+------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------+------------------------------------------------+
+| EGL  | Request                                                                                              | `Horaites+2023 <https://doi.org/10.1029/2023JA031374>`_                              | Pressure pulse simulation. EGI branched with   |
+|      |                                                                                                      |                                                                                      | an enhanced dynamic pressure pulse             |
++------+------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------+------------------------------------------------+
+| FHA  | Full bulk data available on request                                                                  | `Pfau-Kempf+2025 (in review) <https://doi.org/10.5194/angeo-2024-26>`_               | EGI w/ ionosphere. Usable for tail RX processes|
+|      |                                                                                                      |                                                                                      | incl. flux rope detection flags                |
++------+------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------+------------------------------------------------+
 
 Simulations-on-demand
 ---------------------
 
-Global Vlasiator simulations take months to complete, and are not offered on an on-demand basis; larger collaborations can o fcourse be planned.
+Global Vlasiator simulations take months to complete, and are not offered on an on-demand basis; larger collaborations can of course be planned.
 
 Small/local simulations can be set up and supported for external users on best-effort basis.
 

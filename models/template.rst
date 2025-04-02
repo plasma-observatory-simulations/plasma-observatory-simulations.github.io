@@ -26,6 +26,8 @@ Use cases
 
 Give some descriptive examples where the model has been/can be applied to, especially wrt. PO activities.
 
+Example plots or other figures (not too many).
+
 Data availability
 -----------------
 

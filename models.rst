@@ -29,6 +29,11 @@ MAGE
 SWMF
 ^^^^
 
+The Space Weather Modeling Framework (SWMF) is a software framework which models a wide range of temporal and spatial scales as well as the different physical processes governing the different heliophysics domains through a modular approach. The heart of the framework is the BATS-R-US versatile, high-performance, generalized magnetohydrodynamic code with adaptive mesh refinement that can be configured to solve the governing equations of ideal and resistive MHD, semi-relativistic, anisotropic, Hall, multispecies, and multi-fluid extended magnetofluid equations (XMHD) and non-neutral multifluid plasmas. The BATS-R-US is used to model several physics domains, and its high efficiency (faster than real time) is crucial for the success of the framework. Further descriptions of the SWMF modules can be found below.
+
+.. toctree::
+   SWMF details<models/swmf>
+
 MENURA
 ^^^^^^
 
@@ -62,6 +67,16 @@ The *muphyII* code is a simulation framework for collisionless plasma physics an
 .. toctree::
    muphyII details<models/muphyii>
 
+<<<<<<< HEAD
+=======
+PSC
+^^^
+
+Plasma Simulation Code (PSC) is a 3-dimensional fully electromagnetic particle-in-cell code for kinetic plasma simulations. It supports Nvidia GPUs and patch-based dynamic load balancing.
+
+.. toctree::
+   PSC details<models/psc>
+>>>>>>> 46e16f81d339a54413427f285aa8d93f16c0d429
 
 Template model
 ^^^^^^^^^^^^^^
