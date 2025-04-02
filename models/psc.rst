@@ -31,7 +31,7 @@ PSC has been used to perform kinetic simulations of magnetic field generation an
   :width: 400
   :alt: Figure from a simulation.
 
-Three-dimensional rendering of the magnetic-field component Bz (a) and the magnitude of the current density |J| (b) from a 3D simulation of anisotropic turbulence. Adapted from Agudelo Rueda et al., JPP, 2021.
+Three-dimensional rendering of the magnetic-field component Bz (a) and the magnitude of the current density \|J\| (b) from a 3D simulation of anisotropic turbulence. Adapted from [4]_.
 
 Data availability
 -----------------
