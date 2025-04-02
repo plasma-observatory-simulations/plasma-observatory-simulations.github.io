@@ -67,8 +67,6 @@ The *muphyII* code is a simulation framework for collisionless plasma physics an
 .. toctree::
    muphyII details<models/muphyii>
 
-<<<<<<< HEAD
-=======
 PSC
 ^^^
 
@@ -76,7 +74,6 @@ Plasma Simulation Code (PSC) is a 3-dimensional fully electromagnetic particle-i
 
 .. toctree::
    PSC details<models/psc>
->>>>>>> 46e16f81d339a54413427f285aa8d93f16c0d429
 
 Template model
 ^^^^^^^^^^^^^^
