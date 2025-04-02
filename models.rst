@@ -75,6 +75,14 @@ Plasma Simulation Code (PSC) is a 3-dimensional fully electromagnetic particle-i
 .. toctree::
    PSC details<models/psc>
 
+PIRAN: Particles In ResonANce
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Quasilinear diffusion coefficients can be used to characterise the statistical response of charged particles to perturbations by plasma waves, via resonant wave-particle interactions. The open-source PIRAN software package ("Particles In ResonANce") is written using Python, and allows the user to calculate relativistic diffusion coefficients in kinetic energy and pitch-angle space via the two main current proposed methods in the literature.
+
+.. toctree::
+   PIRAN details<models/piran>
+
 Template model
 ^^^^^^^^^^^^^^
 
