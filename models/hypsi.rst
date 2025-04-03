@@ -1,50 +1,51 @@
-Template model
+HYPSI
 ================================
 
-Give here ~one paragraph introduction to the model. The table below has links and data at a glance, which is nice (even if I kind of dislike the table format in rst now that I see it).
+HYPSI is an hybrid-kinetic PIC code, where ions are modelled as macroparticles and advanced using the standard PIC method while the electrons are modelled as a massless, charge-neutralizing fluid with an adiabatic equation of state. 
+
+HYPSI supports several initialisations and boundary conditions, the most used one of which allows the propagation of a shock wave in the simulation domain. This is done thorugh the injection method, employing an open inlow boundary and a reflective wall. The other two directions have periodic boundary conditions. Importantly, HYPSI is one of the first codes supporting a realistic turbulent initialisation for the shock upstream. Such turbulent initialisation is performed through a combination of MHD and hybrid kinetic simulations, where the output of an MHD model becomes the initial condition for the shock simulation (see [1]_). An important aspect of this initialisation is that the perturbation is finite in both space and time extent. Recent improvements allow for continuous injection of upstream turbulence.  
 
 +------------------------+---------------------------------------------------------------------+
-| Additional information | `Vlasiator <https://www.helsinki.fi/en/researchgroups/vlasiator>`_  |
-| (Vlasiator table as    |  group at Helsinki University                                       |
-| placeholder)           |                                                                     |
+| WG Points of Contact   | Domenico Trotta, Laura Vuorinen                                     |
 +------------------------+---------------------------------------------------------------------+
-| WG Point of Contact    | Markku Alho                                                         |
+| Current code version   |                                                                     |
 +------------------------+---------------------------------------------------------------------+
-| Current code version   | 5.3.1                                                               |
+| code/repository        | Not publicly available                                              |
 +------------------------+---------------------------------------------------------------------+
-| code/repository        | `Zenodo <https://doi.org/10.5281/zenodo.3640593>`_,                 |
-|                        | `GitHub <https://github.com/fmihpc/vlasiator>`_                     |
-+------------------------+---------------------------------------------------------------------+
-| Legal Code License     | `GPL-2.0 <https://www.gnu.org/licenses/old-licenses/gpl-2.0.html>`_ |
-+------------------------+---------------------------------------------------------------------+
-| Software code          | C++                                                                 |
-| languages and tools    | `Analysator <https://github.com/fmihpc/analysator>`_ Python toolkit |
+| Software code          | HYPSI is in C++                                                     |
+| languages and tools    | MATLAB and Python toolkits are availability for output analysis     |
 +------------------------+---------------------------------------------------------------------+
 
 Use cases
 ---------
 
-Give some descriptive examples where the model has been/can be applied to, especially wrt. PO activities.
+The HYPSI shock initialisation was used to address several aspects of shock physics, such as particle diffusion at quasi-parallel shocks, alpha particle behaviour and their influence on the shock tranistion, generation of downstream jets and plasmoids and the interaction between upstream Ultra-Low-Frequency (ULF) waves and the shock transition. HYPSI was also successfully used in combination with test-particle methods to study energetic electron dynamics, in particular to study the effect of shock rippling on electron acceleration in both two- and three-dimensional geometry. Other available HYPSI setups include periodic boundary conditions and the possibility to study freely-decaying turbulence and systems of current sheets relevant to outer heliospheric environments.
 
-Example plots or other figures (not too many).
+.. image:: Plots/HYPSI_figure.png
+  :width: 400
+  :alt: Left: Three-dimensional rendering of a perpendicular shock simulated with HYPSI, where shock rippling is highlighted. Right: Magnetic field measurements from virtual spacecraft deployed in the simulation domain.
+
 
 Data availability
 -----------------
 
-Available data to be listed (public/on-request/available via collaboration). Describe shortly - we might compile these to a separate page.
+Two-dimensional datasets covering a large shock parameter range (0 to 90 degrees shock normal angles, 0.1 to 10 plasma beta, Alfvanic Mach numbers 2 to 30) are easily provided upon request, useful to look at electromagnetic fields, plasma moments, particle distributions. Coupling to test-particle codes to study energetic particle dynamics is also possible (see [2]_)  Turbulent and three-dimensional runs can also be provided, though they require more planning due to computational constraint. An extensive set of software to analyse HYPSI output is also available upon request in both MATLAB and Python, with the Python version 'hypy' being released soon.
 
 Simulations-on-demand
 ---------------------
 
-Can simulations be done on an on-demand basis? Outline procedures.
+Simulations can be performed on-demand. Please get in touch with the WG or directly to Domenico Trotta (domenico.trotta@esa.int) and Laura Vuorinen ().
+
 
 Numerical Methods
 -----------------
 
-Outline the basic algorithm for reference. For example, I used `Vlasiator group website description <https://www.helsinki.fi/en/researchgroups/vlasiator>`_ pretty liberally for now. References are nice to add and here's an example [1]_.
+Hybrid PIC code using CAM-CL algorithm [3]_.
 
 
 References
 ----------
 
-.. [1] Palmroth, M. et al. Vlasov methods in space physics and astrophysics. Living Rev Comput Astrophys (2018). `<https://doi.org/10.1007/s41115-018-0003-2>`_
+.. [1] Trotta, D. et al., Three-dimensional modelling of the shock–turbulence interaction. MNRAS (2023). `<https://doi.org/10.1093/mnras/stad2384>`_
+.. [2] Trotta, D. and Burgess, D., Electron acceleration at quasi-perpendicular shocks in sub- and supercritical regimes: 2D and 3D simulations. MNRAS (2019). `<https://doi.org/10.1093/mnras/sty2756>`_
+.. [3] Matthews, A. P., Current Advance Method and Cyclic Leapfrog for 2D Multispecies Hybrid Plasma Simulations. JCP (1994). `<https://doi.org/10.1006/jcph.1994.1084>`_
