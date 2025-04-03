@@ -17,6 +17,12 @@ Vlasiator is a 6D ion-kinetic hybrid-Vlasov model for the Earth's global magneto
 HYPSI
 ^^^^^
 
+HYPSI is an hybrid-kinetic PIC code, where ions are modelled as macroparticles and advanced using the standard PIC method while the electrons are modelled as a massless, charge-neutralizing fluid with an adiabatic equation of state.
+
+
+
+
+
 HVM
 ^^^^
 
