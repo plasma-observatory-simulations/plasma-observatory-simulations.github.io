@@ -22,7 +22,7 @@ Use cases
 The HYPSI shock initialisation was used to address several aspects of shock physics, such as particle diffusion at quasi-parallel shocks, alpha particle behaviour and their influence on the shock tranistion, generation of downstream jets and plasmoids and the interaction between upstream Ultra-Low-Frequency (ULF) waves and the shock transition. HYPSI was also successfully used in combination with test-particle methods to study energetic electron dynamics, in particular to study the effect of shock rippling on electron acceleration in both two- and three-dimensional geometry. Other available HYPSI setups include periodic boundary conditions and the possibility to study freely-decaying turbulence and systems of current sheets relevant to outer heliospheric environments.
 
 .. image:: Plots/HYPSI_figure.png
-  :width: 400
+  :width: 600
   :alt: Left: Three-dimensional rendering of a perpendicular shock simulated with HYPSI, where shock rippling is highlighted. Right: Magnetic field measurements from virtual spacecraft deployed in the simulation domain.
 
 
