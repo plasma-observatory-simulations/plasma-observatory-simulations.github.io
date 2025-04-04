@@ -1,7 +1,7 @@
 SWMF
 ================================
 
-The Space Weather Modeling Framework (SWMF) is a software framework which models a wide range of temporal and spatial scales as well as the different physical processes governing the different heliophysics domains through a modular approach. The heart of the framework is the BATS-R-US versatile, high-performance, generalized magnetohydrodynamic code with adaptive mesh refinement that can be configured to solve the governing equations of ideal and resistive MHD, semi-relativistic, anisotropic, Hall, multispecies, and multi-fluid extended magnetofluid equations (XMHD) and non-neutral multifluid plasmas. The BATS-R-US is used to model several physics domains, and its high efficiency (faster than real time) is crucial for the success of the framework. Further descriptions of the SWMF modules can be found below.
+The Space Weather Modeling Framework (SWMF) [1]_ [2]_ is a software framework which models a wide range of temporal and spatial scales as well as the different physical processes governing the different heliophysics domains through a modular approach. The heart of the framework is the BATS-R-US versatile, high-performance, generalized magnetohydrodynamic code with adaptive mesh refinement that can be configured to solve the governing equations of ideal and resistive MHD, semi-relativistic, anisotropic, Hall, multispecies, and multi-fluid extended magnetofluid equations (XMHD) and non-neutral multifluid plasmas. The BATS-R-US is used to model several physics domains, and its high efficiency (faster than real time) is crucial for the success of the framework. Further descriptions of the SWMF modules can be found below.
 
 +------------------------+-----------------------------------------------------------------------------------------------------------------------+
 | Additional information | `SWMF <https://clasp.engin.umich.edu/research/theory-computational-methods/space-weather-modeling-framework/>`_  	 |
@@ -35,7 +35,7 @@ Plots tbd
 Data availability
 -----------------
 
-All data generated at CCMC via Runs on Request are public and are `archived <https://ccmc.gsfc.nasa.gov/ungrouped/GM_IM/GM_main.php>\`_
+All data generated at CCMC via Runs on Request are public and are `archived <https://ccmc.gsfc.nasa.gov/ungrouped/GM_IM/GM_main.php>`_
 
 tbd other links to rules of the road
 
