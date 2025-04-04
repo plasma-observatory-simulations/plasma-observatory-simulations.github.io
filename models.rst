@@ -49,14 +49,20 @@ CAMELIA
 iPIC3D
 ^^^^^^
 
-Athena++
-^^^^^^^^
+.. Athena++
+.. ^^^^^^^^
 
 GPAT
 ^^^^
 
+GPAT is an open source code solving energetic particle transport equations by integrating `stochastic differential equations <https://stochastic-parker.readthedocs.io/en/latest/index.html>`_, available on GitHub at `<https://github.com/xiaocanli/stochastic-parker>`_.
+
+
 VPIC
 ^^^^
+
+`VPIC <https://doi.org/10.1109/TPDS.2021.3084795>`_ is an open source, fully kinetic, relativistic, general purpose particle-in-cell (PIC) code for modeling a broad range of plasmas—from short-pulse laser-plasma interactions to Earth-scale magnetospheric plasmas, including energetic particle acceleration, magnetic reconnection, and laser plasma interaction. VPIC is available on GitHub: `<https://github.com/lanl/vpic-kokkos>`_.
+
 
 *muphyII* 
 ^^^^^^^^^^
