@@ -49,6 +49,11 @@ CAMELIA
 iPIC3D
 ^^^^^^
 
+iPIC3D is a massively parallel, moment-implicit Particle-in-Cell (PIC) code for large-scale kinetic plasma simulations, particularly targeting global magnetospheric dynamics. Developed in C++ with hybrid MPI/OpenMP parallelism, it is designed for exascale platforms and optimized for both CPU and GPU architectures including AMD MI300A and NVIDIA Grace Hopper.
+
+.. toctree:: 
+   iPIC3D details<models/iPIC3D_SM>
+
 .. Athena++
 .. ^^^^^^^^
 
