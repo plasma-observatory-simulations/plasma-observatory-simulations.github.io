@@ -34,8 +34,12 @@ HVM
 ViDA
 ^^^^
 
+`ViDA <https://doi.org/10.1017/S0022377819000631>`_ is a Vlasov-Darwin solver targeting electron-scale physics, providing Eulerian Vlasov simulations for both ions and electrons.
+
 MAGE
 ^^^^
+
+`MAGE <https://cgs.jhuapl.edu/Models/mage.php>`_, or the Multiscale Atmosphere-Geospace Environment model is coupled model developed to include the whole geospace to resolve global dynamics and mesoscale processes. The magnetospheric backbone model of MAGE is the Grid Agnostic MHD for Extended Research Applications model, or `GAMERA <https://cgs.jhuapl.edu/Models/gamera.php>`_.
 
 SWMF
 ^^^^
@@ -48,14 +52,22 @@ The Space Weather Modeling Framework (SWMF) is a software framework which models
 MENURA
 ^^^^^^
 
+`Menura <https://menura.readthedocs.io/en/latest/>`_ is parallel-GPU hybrid Particle-in-Cell code, with the speciality of being able to both simulate and introduce solar wind turbulence into global simulations.
+
 Amitis
 ^^^^^^
+
+`Amitis <www.amitiscode.com>`_ is a three-dimensional, time-dependent, hybrid-kinetic plasma model, providing high performance via parallel GPU-based supercomputing.
 
 Hall-MHD
 ^^^^^^^^
 
+A code for solving the viscous-resistive, fully compressible Hall-MHD equations, used for local turbulence and reconnection studies, especially by providing large-scale input for CAMELIA.
+
 CAMELIA
 ^^^^^^^
+
+CAMELIA is a hybrid Particle-in-Cell simulation, used for studying turbulence and reconnection in local simulations, especially from larger-scale background from the Hall-MHD code described above. CAMELIA has already generated a large archive of simulations over a large parameter space.
 
 iPIC3D
 ^^^^^^
