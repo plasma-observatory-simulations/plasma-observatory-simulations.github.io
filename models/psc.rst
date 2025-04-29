@@ -48,7 +48,7 @@ Simulations can be done on an on-demand basis.
 Numerical Methods
 -----------------
 
-The Plasma Simulation Code is an explicit code that solves the equations of motion for the quasi-particles and self-consistently evolves the electromagnetic fields using Maxwell's equations. It employs a finite-difference time domain (FDTD) shceme and it uses the staggered Yee grid to represent magnetic fields on faces, electric fields and current densities on edges, and charge densities on corners of the computational mesh. It uses standard leapfrog method to advance quasi-particles.
+The Plasma Simulation Code is an explicit code that solves the equations of motion for the quasi-particles and self-consistently evolves the electromagnetic fields using Maxwell's equations. It employs a finite-difference time domain (FDTD) scheme and it uses the staggered Yee grid to represent magnetic fields on faces, electric fields and current densities on edges, and charge densities on corners of the computational mesh. It uses standard leapfrog method to advance quasi-particles.
 
 
 References

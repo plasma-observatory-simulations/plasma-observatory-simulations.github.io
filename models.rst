@@ -31,6 +31,8 @@ For further details, see below:
 HVM
 ^^^^
 
+`Hybrid-Vlasov-Maxwell <https://doi.org/10.1063/1.4893301>`_ (HVM)  is an Eulerian ion-kinetic simulation code, used for e.g. large-scale local turbulence simulations.
+
 ViDA
 ^^^^
 
