@@ -56,6 +56,9 @@ MENURA
 
 `Menura <https://menura.readthedocs.io/en/latest/>`_ is parallel-GPU hybrid Particle-in-Cell code, with the speciality of being able to both simulate and introduce solar wind turbulence into global simulations.
 
+.. toctree::
+   Menura details<models/menura>
+
 Amitis
 ^^^^^^
 
