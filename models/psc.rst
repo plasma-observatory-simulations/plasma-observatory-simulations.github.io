@@ -25,18 +25,18 @@ The table below has links to documentation.
 Use cases
 ---------
 
-PSC has been used to perform kinetic simulations of magnetic field generation and collisionless shock formation in expanding laboratory plasmas [2]_, to study the formation of magnetic holes in the Earth's magentisheath [3]_, to study 3D magnetic reconnection events that occur as a result of the turbulent dynamics in the context of the solar wind [4]_, to study the effect of kinetis-scale fluctuations on a harris current sheet [5]_ and to study intermittency in simulations of turbulence using a multi-spacecraft analysis [6]_.
+PSC has been used to perform kinetic simulations of magnetic field generation and collisionless shock formation in expanding laboratory plasmas [2]_, to study the formation of magnetic holes in the Earth's magnetosheath [3]_, to study 3D magnetic reconnection events that occur as a result of the turbulent dynamics in the context of the solar wind [4]_, to study the effect of kinetic-scale fluctuations on a Harris current sheet [5]_ and to study intermittency in simulations of turbulence using a multi-spacecraft analysis [6]_.
 
 .. image:: Images_PSC/Agudelo_Rueda_2021_fig4.png
   :width: 400
   :alt: Figure from a simulation.
 
-Three-dimensional rendering of the magnetic-field component Bz (a) and the magnitude of the current density |J| (b) from a 3D simulation of anisotropic turbulence. Adapted from Agudelo Rueda et al., JPP, 2021.
+Three-dimensional rendering of the magnetic-field component Bz (a) and the magnitude of the current density \|J\| (b) from a 3D simulation of anisotropic turbulence. Adapted from [4]_.
 
 Data availability
 -----------------
 
-Data publycally available `zenodo <https://zenodo.org/records/4313310>`_
+Data publically available on `Zenodo <https://zenodo.org/records/4313310>`_
 
 Adittional data available via collaboration. 
 
@@ -48,7 +48,7 @@ Simulations can be done on an on-demand basis.
 Numerical Methods
 -----------------
 
-The Plasma Simulation Code is an explicit code that solves the equations of motion for the quasi-particles and self-consistently evolves the electromagnetic fields using Maxwell's equations. It employs a finite-difference time domain (FDTD) shceme and it uses the staggered Yee grid to represent magnetic fields on faces, electric fields and current densities on edges, and charge densities on corners of the computational mesh. It uses standard leapfrog method to advance quasi-particles.
+The Plasma Simulation Code is an explicit code that solves the equations of motion for the quasi-particles and self-consistently evolves the electromagnetic fields using Maxwell's equations. It employs a finite-difference time domain (FDTD) scheme and it uses the staggered Yee grid to represent magnetic fields on faces, electric fields and current densities on edges, and charge densities on corners of the computational mesh. It uses standard leapfrog method to advance quasi-particles.
 
 
 References
