@@ -74,6 +74,10 @@ CAMELIA
 
 CAMELIA is a hybrid Particle-in-Cell simulation, used for studying turbulence and reconnection in local simulations, especially from larger-scale background from the Hall-MHD code described above. CAMELIA has already generated a large archive of simulations over a large parameter space.
 
+.. toctree::
+   CAMELIA details<models/camelia>
+
+
 iPIC3D
 ^^^^^^
 
