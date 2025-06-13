@@ -33,10 +33,16 @@ HVM
 
 `Hybrid-Vlasov-Maxwell <https://doi.org/10.1063/1.4893301>`_ (HVM)  is an Eulerian ion-kinetic simulation code, used for e.g. large-scale local turbulence simulations.
 
+.. toctree::
+   HVM details<models/HVM>
+
 ViDA
 ^^^^
 
 `ViDA <https://doi.org/10.1017/S0022377819000631>`_ is a Vlasov-Darwin solver targeting electron-scale physics, providing Eulerian Vlasov simulations for both ions and electrons.
+
+.. toctree::
+   HVM details<models/ViDA>
 
 MAGE
 ^^^^
@@ -63,6 +69,13 @@ Amitis
 ^^^^^^
 
 `Amitis <www.amitiscode.com>`_ is a three-dimensional, time-dependent, hybrid-kinetic plasma model, providing high performance via parallel GPU-based supercomputing.
+
+COHMPA
+------
+The “COmpressible Hall Magnetohydrodynamics simulations for Plasma Astrophysics” (COHMPA)[1] is a pseudo-spectral algorithm which solves the three-dimensional magnetohydrodynamics equations on a three-periodic Cartesian domain. It eventually includes the Hall and the electron pressure terms in the induction equation for the magnetic field. COHMPA exploits a MPI-based parallelization and employs fast Fourier transform routines (FFTW).
+
+.. toctree::
+   COHMPA detais<models/COHMPA>
 
 Hall-MHD
 ^^^^^^^^
