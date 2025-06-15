@@ -1,4 +1,4 @@
-Template model
+ViDA - Vlasov–DArwin
 ================================
 
 Overview
