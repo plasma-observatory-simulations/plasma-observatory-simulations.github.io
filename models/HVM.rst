@@ -1,4 +1,4 @@
-Template model
+HVM - Hybrid Vlasov-Maxwell
 ================================
 
 Overview
