@@ -42,7 +42,7 @@ ViDA
 `ViDA <https://doi.org/10.1017/S0022377819000631>`_ is a Vlasov-Darwin solver targeting electron-scale physics, providing Eulerian Vlasov simulations for both ions and electrons.
 
 .. toctree::
-   HVM details<models/ViDA>
+   ViDA details<models/ViDA>
 
 MAGE
 ^^^^
