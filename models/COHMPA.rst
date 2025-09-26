@@ -1,4 +1,4 @@
-Template model
+COHMPA model
 ================================
 
 Overview
