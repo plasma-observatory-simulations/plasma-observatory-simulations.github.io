@@ -139,6 +139,14 @@ Quasilinear diffusion coefficients can be used to characterise the statistical r
 .. toctree::
    PIRAN details<models/piran>
 
+OpenMHD
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+OpenMHD is a finite-volume magnetohydrodynamic (MHD) code, written in modern Fortran and CUDA fortran. The program is parallelized by MPI+OpenMP on CPU and by MPI+CUDA on GPU.
+
+.. toctree::
+   OpenMHD details<models/piran>
+
 Template model
 ^^^^^^^^^^^^^^
 
