@@ -3,7 +3,7 @@ HVM - Hybrid Vlasov-Maxwell
 
 Overview
 ---------
-HVM[1]_ is a massively-parallelized fully-kinetic Eulerian hybrid Vlasov-Maxwell code. It solves the Vlasov equation for protons in the full six-dimensional (3D-3V, three physical space dimensions and three velocity space dimensions) phase-space. Electrons are treated as a background charge-neutralizing fluid. The proton Vlasov equation is coupled to the Maxwell system, simplified by assuming charge neutrality and neglecting the displacement current. HVM exploits a hybrid parallelization based on MPI, OpenMP, and CUDA.
+HVM [1]_ is a massively-parallelized fully-kinetic Eulerian hybrid Vlasov-Maxwell code. It solves the Vlasov equation for protons in the full six-dimensional (3D-3V, three physical space dimensions and three velocity space dimensions) phase-space. Electrons are treated as a background charge-neutralizing fluid. The proton Vlasov equation is coupled to the Maxwell system, simplified by assuming charge neutrality and neglecting the displacement current. HVM exploits a hybrid parallelization based on MPI, OpenMP, and CUDA.
 
 HVM has provided important insights on ion-scale phenomena, including kinetic-scale plasma turbulence [2]_ and reconnection [3]_, energy conversion and dissipation in space plasmas [4]_. Several code developments have been included in the last years to take into account (i) the dynamics of heavy ions (alpha particles) [5]_, (ii) anisotropic electron closures [6]_, and (iii) proton-proton interparticle collisions [7]_.
 
