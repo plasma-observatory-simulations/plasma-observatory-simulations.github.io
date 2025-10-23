@@ -7,6 +7,8 @@ Vlasiator [1]_ [2]_ is a 6D ion-kinetic hybrid-Vlasov model for the Earth's glob
 | Additional information | `Vlasiator <https://www.helsinki.fi/en/researchgroups/vlasiator>`_  |
 |                        | group at Helsinki University                                        |
 +------------------------+---------------------------------------------------------------------+
+| PI                     | Prof. Minna Palmroth                                                |
++------------------------+---------------------------------------------------------------------+
 | WG Point of Contact    | Markku Alho                                                         |
 +------------------------+---------------------------------------------------------------------+
 | Current code version   | 5.3.1                                                               |
