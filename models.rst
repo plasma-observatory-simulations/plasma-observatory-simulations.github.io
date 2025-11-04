@@ -146,11 +146,3 @@ OpenMHD is a finite-volume magnetohydrodynamic (MHD) code, written in modern For
 
 .. toctree::
    OpenMHD details<models/piran>
-
-Template model
-^^^^^^^^^^^^^^
-
-This is an example for adding pending descriptions.
-
-.. toctree::
-   Template details<models/template>
